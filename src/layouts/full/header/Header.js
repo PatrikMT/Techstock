@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 // components
 import Profile from './Profile';
+import Service from './Service';
 import { IconBellRinging, IconMenu } from '@tabler/icons';
 
 const Header = (props) => {
@@ -46,7 +47,7 @@ const Header = (props) => {
 
         <IconButton
           size="large"
-          aria-label="show 11 new notifications"
+          
           color="inherit"
           aria-controls="msgs-menu"
           aria-haspopup="true"
@@ -63,7 +64,9 @@ const Header = (props) => {
         </IconButton>
         <Box flexGrow={1} />
         <Stack spacing={1} direction="row" alignItems="center">
+        <Service />
           <Profile />
+         
         </Stack>
       </ToolbarStyled>
     </AppBarStyled>

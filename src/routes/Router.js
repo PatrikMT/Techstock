@@ -11,7 +11,7 @@ const Dashboard = Loadable(lazy(() => import('../views/dashboard/Dashboard')))
 const Error = Loadable(lazy(() => import('../views/authentication/Error')));
 const Register = Loadable(lazy(() => import('../views/authentication/Register')));
 const Login = Loadable(lazy(() => import('../views/authentication/Login')));
-
+const Mensagem = Loadable(lazy(() => import('../views/mensagens/Mensagens')));
 const Router = [
   {
     path: '/',
@@ -19,6 +19,7 @@ const Router = [
     children: [
       { path: '/', element: <Navigate to="/dashboard" /> },
       { path: '/dashboard', exact: true, element: <Dashboard /> },
+      { path: '/mensagens', exact: true, element: <Mensagem /> },
       { path: '*', element: <Navigate to="/auth/404" /> },
     ],
   },
