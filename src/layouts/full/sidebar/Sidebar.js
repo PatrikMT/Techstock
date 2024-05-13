@@ -27,7 +27,7 @@ const Sidebar = (props) => {
   <Box sx={{
     height: '100vh',
     width: '60px',
-    background: 'linear-gradient(to top, blue, darkblue)',
+    background: 'linear-gradient(to top, lightblue, darkblue)',
     marginRight: '10px',
     display: 'flex',
     alignItems: 'flex-start',

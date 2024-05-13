@@ -28,7 +28,7 @@ const Profile = () => {
     <Box>
       <IconButton
         size="large"
-        aria-label="show 11 new notifications"
+        aria-label=""
         color="inherit"
         aria-controls="msgs-menu"
         aria-haspopup="true"

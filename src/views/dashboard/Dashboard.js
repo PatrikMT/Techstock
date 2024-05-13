@@ -6,8 +6,8 @@ import Paper from '@mui/material/Paper';
 const Dashboard = () => {
   return (
     <PageContainer title="Dashboard" description="this is Dashboard">
-      <Box display="flex" flexDirection="column" variant="outlined" width="100%">
-        <Grid container spacing={2} justifyContent="space-between">
+      <Box display="flex" flexDirection="column" variant="outlined" width="auto">
+        <Grid container spacing={1} justifyContent="space-evenly">
           <Grid item xs={12} md={3}>
             <Paper style={{ padding: '20px', background:'#c8c8c8' }}>
               <Typography align="center" variant="h6" fontWeight="bold">CHAMADAS</Typography>
